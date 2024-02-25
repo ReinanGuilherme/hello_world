@@ -2,6 +2,8 @@
 
 Este é um projeto utilizado para prática, que demonstra como realizar o Build and Push de uma imagem Docker para um aplicativo Go usando GitHub Actions e a abordagem de armazenamento seguro de valores sensíveis utilizando secrets.
 
+Além disso, este projeto utiliza um arquivo docker-compose.yaml que contém as configurações necessárias para realizar o build e push do container. Ele também define as variáveis de ambiente necessárias para o projeto funcionar corretamente.
+
 ## Objetivo
 
 O objetivo deste projeto é praticar o processo de automação de construção e publicação de uma imagem Docker para um aplicativo Go. Usando GitHub Actions, configuramos um fluxo de trabalho que é acionado automaticamente sempre que há um push para a branch "main" do repositório. Este fluxo de trabalho realiza as seguintes etapas:

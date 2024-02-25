@@ -17,7 +17,7 @@ func main() {
 	router.GET("/", routerHelloWorld)
 
 	fmt.Println("Server is running on http://localhost:" + os.Getenv("PORT"))
-	router.Run("localhost:" + PORT)
+	router.Run("0.0.0.0:" + PORT)
 }
 
 func routerHelloWorld(c *gin.Context) {
