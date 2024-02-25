@@ -2,7 +2,11 @@
 
 Este é um projeto utilizado para prática, que demonstra como realizar o Build and Push de uma imagem Docker para um aplicativo Go usando GitHub Actions e a abordagem de armazenamento seguro de valores sensíveis utilizando secrets.
 
-Além disso, este projeto utiliza um arquivo docker-compose.yaml que contém as configurações necessárias para realizar o build e push do container. Ele também define as variáveis de ambiente necessárias para o projeto funcionar corretamente.
+Além disso, este projeto utiliza um arquivo docker-compose.yaml para facilitar a configuração e execução do aplicativo. Com o arquivo docker-compose.yaml, você pode iniciar o aplicativo facilmente com os seguintes comandos:
+
+1. docker compose pull
+
+2. docker compose up -d --build
 
 ## Objetivo
 
